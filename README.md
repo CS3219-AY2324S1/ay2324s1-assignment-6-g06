@@ -14,3 +14,6 @@ Locally
 
 serverless
 serverless
+
+for 10 questions
+https://asia-northeast2-cs3219-group6-400112.cloudfunctions.net/put-questions?limit=10
