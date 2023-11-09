@@ -21,7 +21,7 @@ ___
 ___
 ![image](images/localhost.png)
 
-For instance, the above instance resets our database and puts in 10 questions.
+The above instance resets our database and puts in 10 questions.
 ___
 6) `exit`
 
