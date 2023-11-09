@@ -46,4 +46,4 @@ password: serverless
 
 ![image](https://github.com/CS3219-AY2324S1/ay2324s1-assignment-6-g06/tree/branch-assignment-6/images/before)
 
-![image](images/after)
+![repository after function](images/after.png)
