@@ -10,9 +10,10 @@ Uses Graphql and Python requests to get leetcode questions and store it as our m
 ### Running the script locally
 1) Create .env file in root
 ___
+
 .env file variable
 
-MONGO_URI=mongodb+srv://{username}:{password}@{cluster}.mongodb.net/{dbName}?retryWrites=true&w=majority
+`MONGO_URI=mongodb+srv://{username}:{password}@{cluster}.mongodb.net/{dbName}?retryWrites=true&w=majority`
 ___
 2) Run in terminal `pip install pipenv`
 3) `pipenv shell`
