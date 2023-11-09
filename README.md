@@ -12,16 +12,16 @@ Uses Graphql and Python requests to get leetcode questions and store it as our m
 ___
 .env file variable
 
-MONGO_URI=mongodb+srv://{username}:{password}@{clusterid}.3w1nmj1.mongodb.net/{dbname}?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://{username}:{password}@{cluster}.mongodb.net/{dbName}?retryWrites=true&w=majority
 ___
 2) Run in terminal `pip install pipenv`
 3) `pipenv shell`
 4) `pipenv install -r requirements.txt`
 5) `python3 main.py <limit>`
 ___
-![image](https://github.com/CS3219-AY2324S1/ay2324s1-assignment-6-g06/tree/branch-assignment-6/images/localhost)
+![image](images/localhost.png)
 
-For instance, the above instance resets our database and puts in 10 questions.
+The above instance resets our database and puts in 10 questions.
 ___
 6) `exit`
 
@@ -44,6 +44,6 @@ username: serverless
 
 password: serverless
 
-![image](https://github.com/CS3219-AY2324S1/ay2324s1-assignment-6-g06/tree/branch-assignment-6/images/before)
+![frontend before function](images/before.png)
 
-![image](https://github.com/CS3219-AY2324S1/ay2324s1-assignment-6-g06/tree/branch-assignment-6/images/after)
+![frontend after function](images/after.png)
