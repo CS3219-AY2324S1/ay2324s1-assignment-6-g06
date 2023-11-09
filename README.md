@@ -12,7 +12,7 @@ Uses Graphql and Python requests to get leetcode questions and store it as our m
 ___
 .env file variable
 
-MONGO_URI=mongodb+srv://{username}:{password}@{clusterid}.3w1nmj1.mongodb.net/{dbname}?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://{username}:{password}@{cluster}.mongodb.net/{dbName}?retryWrites=true&w=majority
 ___
 2) Run in terminal `pip install pipenv`
 3) `pipenv shell`
