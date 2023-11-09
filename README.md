@@ -1,10 +1,10 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/UxpU_KWG)
 # ServerlessTemplate
 
-Not completed yet 
+This repository contains our serverless function used in cloud function for assignment 6.
 
 ## Cloud Function
-Uses graphql and python requests to get leetcode question and add in additional fields to match mongoose question model.
+Uses Graphql and Python requests to get leetcode questions and store it as our mongoose question model in mongoDB.
 
 
 ### Running the script locally
@@ -20,6 +20,8 @@ ___
 5) `python3 main.py <limit>`
 ___
 ![image](https://github.com/CS3219-AY2324S1/ay2324s1-assignment-6-g06/tree/branch-assignment-6/images/localhost)
+
+For instance, the above instance resets our database and puts in 10 questions.
 ___
 6) `exit`
 
@@ -30,7 +32,7 @@ To change the number of questions, change the value after `limit=`
 
 - https://asia-northeast2-cs3219-group6-400112.cloudfunctions.net/put-questions?limit=10
 
-For all questions
+For all questions (longer waiting time)
 
 - https://asia-northeast2-cs3219-group6-400112.cloudfunctions.net/put-questions
 
@@ -38,6 +40,10 @@ For all questions
 
 [Website](https://fe-cd-test-a2rwifv3ta-dt.a.run.app/)
 
-- user: serverless
-- password: serverless
+username: serverless
 
+password: serverless
+
+![image](https://github.com/CS3219-AY2324S1/ay2324s1-assignment-6-g06/tree/branch-assignment-6/images/before)
+
+![image](https://github.com/CS3219-AY2324S1/ay2324s1-assignment-6-g06/tree/branch-assignment-6/images/after)
