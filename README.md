@@ -19,7 +19,7 @@ ___
 4) `pipenv install -r requirements.txt`
 5) `python3 main.py <limit>`
 ___
-![image](images/localhost)
+![image](images/localhost.png)
 
 For instance, the above instance resets our database and puts in 10 questions.
 ___
